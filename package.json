@@ -1,0 +1,26 @@
+{
+  "name": "typesciptboilerplate",
+  "version": "1.0.0",
+  "description": "a boiler plate for typescript a typescript apllication",
+  "main": "index.ts",
+  "scripts": {
+    "start": "webpack --mode development",
+    "app": "node ./build/app.bundle.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dutchalphaa/typescriptBoilerPlate.git"
+  },
+  "keywords": [
+    "typescript",
+    "boilerplate"
+  ],
+  "author": "Boyd Vree",
+  "license": "MIT",
+  "devDependencies": {
+    "ts-loader": "^5.3.0",
+    "typescript": "^3.1.6",
+    "webpack": "^4.25.1",
+    "webpack-cli": "^3.1.2"
+  }
+}
